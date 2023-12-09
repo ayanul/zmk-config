@@ -26,7 +26,7 @@
     combos {
         compatible = "zmk,combos";
 
-        to_adjust_layer_left {
+        tog_3_l {
             bindings = <&to 3>;
             key-positions = <50 53 12>;
         };
@@ -36,22 +36,22 @@
             key-positions = <26 11>;
         };
 
-        to_adjust_layer_0 {
+        tog_1 {
             bindings = <&tog 1>;
             key-positions = <53 54>;
         };
 
-        to_adjust_layer_0 {
+        tog_3_r {
             bindings = <&to 3>;
             key-positions = <54 57 25>;
         };
 
-        to_adjust_layer_2 {
+        tog_2 {
             bindings = <&tog 2>;
             key-positions = <51 54>;
         };
 
-        to_adjust_layer_0 {
+        tog_0 {
             bindings = <&tog 0>;
             key-positions = <51 56>;
         };
