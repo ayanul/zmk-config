@@ -99,5 +99,24 @@
                                    &none          &trans         &none          &to 0            &to 0          &none          &trans         &none
             >;
         };
+
+        dev {
+            bindings = <
+        &trans  &trans      &trans     &trans      &trans       &trans    &trans  &trans  &trans  &trans  &trans         &trans
+&trans  &trans  &trans      &trans     &trans      &trans       &trans    &trans  &trans  &trans  &trans  &trans         &trans  &trans
+        &trans  &trans      &trans     &trans      &trans       &trans    &trans  &trans  &trans  &trans  &trans         &trans
+        &trans  &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &trans    &trans  &trans  &trans  &trans  &kp LC(SLASH)  &trans
+                            &trans     &trans      &trans       &trans    &trans  &trans  &trans  &trans
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        dev {
+            if-layers = <1 2>;
+            then-layer = <4>;
+        };
     };
 };
