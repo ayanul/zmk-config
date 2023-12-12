@@ -57,6 +57,16 @@
         };
     };
 
+    macros {
+        ctr_alt: ctr_alt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(RCTRL)>, <&macro_press>, <&kp RCTRL &kp RCTRL>;
+
+            label = "CTR_ALT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
