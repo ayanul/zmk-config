@@ -32,7 +32,7 @@
         };
 
         to_1 {
-            bindings = <&to 1>;
+            bindings = <&to 0>;
             key-positions = <53 54>;
         };
 
@@ -61,9 +61,9 @@
         lower_layer {
             bindings = <
         &trans           &to 1     &to 2   &to 3     &to 4     &trans       &trans     &trans    &trans    &trans    &trans    &trans
-&trans  &kp UNDER        &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp F6     &kp F7    &kp F8    &kp F9    &kp F10   &kp F11          &mt RGUI F12
-        &mt LCTRL EQUAL  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-        &mt LALT PLUS    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &trans
+&trans  &kp UNDER        &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp F6     &kp F7    &kp F8    &kp F9    &kp F10   &kp F11             &mt RGUI F12
+        &mt LCTRL EQUAL  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL EQUAL
+        &mt LALT PLUS    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &mt LEFT_ALT MINUS
                                    &trans  &trans    &trans    &trans       &trans     &trans    &trans    &trans
             >;
         };
