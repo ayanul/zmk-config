@@ -81,7 +81,7 @@
         dev {
             bindings = <
           &kp GRAVE  &kp LA(N1)     &kp LA(N2)     &kp LA(N3)         &kp LA(N4)     &kp LA(N5)             &kp LA(N6)          &kp LA(N7)             &kp LA(N8)         &kp LA(N9)           &kp LA(N0)         &kp MINUS
-&kp LGUI  &kp TAB    &kp LA(Q)      &kp W          &kp LC(LS(LA(E)))  &kp LA(RS(R))  &kp LC(LA(SLASH))      &kp Y               &kp LA(HOME)           &kp LA(I)          &kp LC(LA(O))        &kp LA(P)          &kp LA(LS(LBKT))  &kp LA(LS(RBKT))
+&kp LGUI  &kp TAB    &kp LA(Q)      &kp LA(LS(M))  &kp LC(LS(LA(E)))  &kp LA(RS(R))  &kp LC(LA(SLASH))      &kp Y               &kp LA(HOME)           &kp LA(I)          &kp LC(LA(O))        &kp LA(P)          &kp LA(LS(LBKT))  &kp LA(LS(RBKT))
           &kp LCTRL  &kp LC(LS(A))  &kp LA(S)      &kp LA(LS(F10))    &kp LC(SPACE)  &kp LC(LS(G))          &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)     &kp LA(UP_ARROW)   &kp LA(RIGHT_ARROW)  &kp LC(LS(F8))     &kp APOS
           &kp LALT   &kp LC(Z)      &kp LA(LS(X))  &kp LC(SLASH)      &kp LS(F11)    &kp LC(LA(LS(F11)))    &kp LC(LEFT_BRACE)  &kp LA(LS(PAGE_DOWN))  &kp LA(LS(PG_UP))  &kp LC(RIGHT_BRACE)  &kp LC(LA(SLASH))  &kp RIGHT_ALT
                                     &trans         &trans             &trans         &trans                 &trans              &trans                 &trans             &trans
