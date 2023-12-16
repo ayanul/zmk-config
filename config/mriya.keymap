@@ -40,11 +40,6 @@
             bindings = <&to 4>;
             key-positions = <54 57 25>;
         };
-
-        b_alts {
-            bindings = <&kp LA(RIGHT_ALT)>;
-            key-positions = <53 54>;
-        };
     };
 
     macros {
