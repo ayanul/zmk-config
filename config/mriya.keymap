@@ -70,21 +70,21 @@
 
         raise_layer {
             bindings = <
-        &trans  &kp KP_NUMLOCK   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_CALCULATOR  &kp PRINTSCREEN    &kp K_MUTE              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE         &kt K_LOCK      &kp C_SLEEP_MODE
-&trans  &trans  &kp KP_SLASH     &kp KP_N7             &kp KP_N8             &kp KP_N9         &kp KP_MINUS       &kp RC(LEFT_ARROW)      &kp HOME           &kp END          &kp RC(RIGHT_ARROW)      &kp INSERT      &kp CAPS          &trans
-        &trans  &kp KP_MULTIPLY  &kp KP_N4             &kp KP_N5             &kp KP_N6         &kp KP_PLUS        &kp LEFT_ARROW          &kp DOWN           &kp UP           &kp RIGHT                &kp ESC         &mt RCTRL K_APP
-        &trans  &kp KP_N0        &kp KP_N1             &kp KP_N2             &kp KP_N3         &kp KP_DOT         &kp LC(LS(LEFT_ARROW))  &kp PAGE_DOWN      &kp PAGE_UP      &kp LC(LS(RIGHT_ARROW))  &kp LS(INSERT)  &kp LA(TAB)
-                                 &trans                &trans                &trans            &trans             &trans                  &trans             &trans           &trans
+        &trans           &kp KP_NUMLOCK   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_CALCULATOR  &kp PRINTSCREEN    &kp K_MUTE              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE         &kt K_LOCK      &kp C_SLEEP_MODE
+&trans  &trans           &kp KP_SLASH     &kp KP_N7             &kp KP_N8             &kp KP_N9         &kp KP_MINUS       &kp RC(LEFT_ARROW)      &kp HOME           &kp END          &kp RC(RIGHT_ARROW)      &kp INSERT      &kp CAPS          &trans
+        &mt LCTRL EQUAL  &kp KP_N0        &kp KP_N4             &kp KP_N5             &kp KP_N6         &kp KP_PLUS        &kp LEFT_ARROW          &kp DOWN           &kp UP           &kp RIGHT                &kp ESC         &mt RCTRL K_APP
+        &trans           &kp KP_MULTIPLY  &kp KP_N1             &kp KP_N2             &kp KP_N3         &kp KP_DOT         &kp LC(LS(LEFT_ARROW))  &kp PAGE_DOWN      &kp PAGE_UP      &kp LC(LS(RIGHT_ARROW))  &kp LS(INSERT)  &kp LA(TAB)
+                                          &trans                &trans                &trans            &trans             &trans                  &trans             &trans           &trans
             >;
         };
 
         dev {
             bindings = <
-          &kp GRAVE  &kp LA(N1)     &kp LA(N2)     &kp LA(N3)         &kp LA(N4)     &kp LA(N5)             &kp LA(N6)          &kp LA(N7)             &kp LA(N8)         &kp LA(N9)           &kp LA(N0)         &kp MINUS
-&kp LGUI  &kp TAB    &kp LA(Q)      &kp LA(LS(M))  &kp LC(LS(LA(E)))  &kp LA(RS(R))  &kp LC(LA(SLASH))      &kp Y               &kp LA(HOME)           &kp LA(I)          &kp LC(LA(O))        &kp LA(P)          &kp LA(LS(LBKT))  &kp LA(LS(RBKT))
-          &kp LCTRL  &kp LC(LS(A))  &kp LA(S)      &kp LA(LS(F10))    &kp LC(SPACE)  &kp LC(LS(G))          &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)     &kp LA(UP_ARROW)   &kp LA(RIGHT_ARROW)  &kp LC(LS(F8))     &kp APOS
-          &kp LALT   &kp LC(Z)      &kp LA(LS(X))  &kp LC(SLASH)      &kp LS(F11)    &kp LC(LA(LS(F11)))    &kp LC(LEFT_BRACE)  &kp LA(LS(PAGE_DOWN))  &kp LA(LS(PG_UP))  &kp LC(RIGHT_BRACE)  &kp LC(LA(SLASH))  &kp RIGHT_ALT
-                                    &trans         &trans             &trans         &trans                 &trans              &trans                 &trans             &trans
+          &kp GRAVE  &kp LA(N1)     &kp LA(N2)     &kp LA(N3)         &kp LA(N4)     &kp LA(N5)             &kp LA(N6)          &kp LA(N7)              &kp LA(N8)            &kp LA(N9)           &kp LA(N0)         &kp MINUS
+&kp LGUI  &kp TAB    &kp LA(Q)      &kp LA(LS(M))  &kp LC(LS(LA(E)))  &kp LA(RS(R))  &kp LC(LA(SLASH))      &kp Y               &kp LA(HOME)            &kp LA(I)             &kp LC(LA(O))        &kp LA(P)          &kp LA(LS(LBKT))  &kp LA(LS(RBKT))
+          &kp LCTRL  &kp LC(LS(A))  &kp LA(S)      &kp LA(LS(F10))    &kp LC(SPACE)  &kp LC(LS(G))          &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)      &kp LA(UP_ARROW)      &kp LA(RIGHT_ARROW)  &kp LC(LS(F8))     &kp APOS
+          &kp LALT   &kp LC(Z)      &kp LA(LS(X))  &kp LC(SLASH)      &kp LS(F11)    &kp LC(LA(LS(F11)))    &kp LC(LEFT_BRACE)  &kp LA(LS(DOWN_ARROW))  &kp LA(LS(UP_ARROW))  &kp LC(RIGHT_BRACE)  &kp LC(LA(SLASH))  &kp RIGHT_ALT
+                                    &trans         &trans             &trans         &trans                 &trans              &trans                  &trans                &trans
             >;
         };
 
