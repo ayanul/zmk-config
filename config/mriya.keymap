@@ -40,6 +40,21 @@
             bindings = <&to 4>;
             key-positions = <54 57 25>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <39 40>;
+        };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <40 41>;
+        };
+
+        paste {
+            bindings = <&kt V>;
+            key-positions = <41 42>;
+        };
     };
 
     macros {
