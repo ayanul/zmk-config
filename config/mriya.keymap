@@ -55,6 +55,11 @@
             bindings = <&kt V>;
             key-positions = <41 42>;
         };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <39 42>;
+        };
     };
 
     macros {
