@@ -52,7 +52,7 @@
         };
 
         paste {
-            bindings = <&kt RC(V)>;
+            bindings = <&kp LC(V)>;
             key-positions = <41 42>;
         };
 
