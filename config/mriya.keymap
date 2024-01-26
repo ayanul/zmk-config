@@ -78,11 +78,11 @@
 
         lower_layer {
             bindings = <
-                  &kp F11       &kp F10    &kp F9                  &kp F8             &kp F7            &kp F6         &kp F1             &kp F2                &kp F3                          &kp F4               &kp F5          &kp F13
-&mt LEFT_GUI F12  &kp UNDER     &kp F1     &kp F2                  &kp F3             &kp F4            &kp F5         &kp F6             &kp F7                &kp F8                          &kp F9               &kp F10         &kp F11                  &mt RGUI F12
-                  &kp LCTRL     &kp EXCL   &mt LEFT_WIN AT_SIGN    &mt LEFT_ALT HASH  &mt LCTRL DOLLAR  &kp PRCNT      &kp LEFT_BRACKET   &mt RCTRL LEFT_BRACE  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt RIGHT_WIN EQUAL  &kp UNDERSCORE  &mt RCTRL DOUBLE_QUOTES
-                  &kp LEFT_ALT  &kp LC(Z)  &kp TILDE               &kp PIPE           &kp GRAVE         &kp CARET      &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp RIGHT_PARENTHESIS           &kp GREATER_THAN     &kp AMPERSAND   &mt RIGHT_ALT PIPE
-                                           &mt LEFT_WIN BACKSPACE  &lt 2 DELETE       &trans            &lt 1 SPACE    &trans             &trans                &trans                          &trans
+                  &kp F11       &kp F10    &kp F9                  &kp F8             &kp F7            &kp F6       &kp F1             &kp F2                &kp F3                          &kp F4               &kp F5          &kp F13
+&mt LEFT_GUI F12  &kp UNDER     &kp F1     &kp F2                  &kp F3             &kp F4            &kp F5       &kp F6             &kp F7                &kp F8                          &kp F9               &kp F10         &kp F11                  &mt RGUI F12
+                  &kp LCTRL     &kp EXCL   &mt LEFT_WIN AT_SIGN    &mt LEFT_ALT HASH  &mt LCTRL DOLLAR  &kp PRCNT    &kp LEFT_BRACKET   &mt RCTRL LEFT_BRACE  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt RIGHT_WIN EQUAL  &kp UNDERSCORE  &mt RCTRL DOUBLE_QUOTES
+                  &kp LEFT_ALT  &kp LC(Z)  &kp TILDE               &kp PIPE           &kp GRAVE         &kp CARET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp RIGHT_PARENTHESIS           &kp GREATER_THAN     &kp AMPERSAND   &mt RIGHT_ALT PIPE
+                                           &mt LEFT_WIN BACKSPACE  &lt 2 DELETE       &trans            &trans       &trans             &trans                &trans                          &trans
             >;
         };
 
