@@ -89,7 +89,7 @@
         raise_layer {
             bindings = <
         &trans              &kp KP_NUMLOCK   &kp C_BRIGHTNESS_DEC      &kp C_BRIGHTNESS_INC  &kp K_CALCULATOR  &kp PRINTSCREEN    &kp K_MUTE              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE         &kt K_LOCK      &kp C_SLEEP_MODE
-&trans  &kp UNDER           &kp KP_SLASH     &kp KP_N7                 &kp KP_N8             &kp KP_N9         &kp KP_MINUS       &kp LC(BACKSPACE)       &kp HOME           &kp PG_UP        &kp INSERT               &kp LC(DELETE)  &kp CAPS          &trans
+&trans  &kp UNDER           &kp KP_SLASH     &kp KP_N7                 &kp KP_N8             &kp KP_N9         &kp KP_MINUS       &kp LC(BACKSPACE)       &kp HOME           &kp PG_UP        &kp RC(DELETE)           &kp INSERT      &kp CAPS          &trans
         &mt LCTRL EQUAL     &kp KP_MULTIPLY  &mt LEFT_GUI KP_NUMBER_4  &mt LEFT_ALT KP_N5    &mt LCTRL KP_N6   &kp KP_PLUS        &kp LEFT_ARROW          &kp DOWN           &kp UP           &kp RIGHT                &kp ESC         &mt RCTRL K_APP
         &mt LEFT_ALT TILDE  &kp KP_N0        &kp KP_N1                 &kp KP_N2             &kp KP_N3         &kp KP_DOT         &kp LC(LS(LEFT_ARROW))  &kp END            &kp PG_DN        &kp LC(LS(RIGHT_ARROW))  &kp LS(INSERT)  &kp K_MENU
                                              &trans                    &trans                &kp SPACE         &lt 1 TAB          &trans                  &trans             &trans           &trans
