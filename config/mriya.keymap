@@ -92,7 +92,7 @@
 &trans  &kp TILDE        &kp KP_SLASH     &kp KP_N7                 &kp KP_N8             &kp KP_N9         &kp KP_MINUS       &kp LC(BACKSPACE)       &kp HOME           &kp PG_UP        &kp RC(DELETE)           &kp INSERT      &kp CAPS          &trans
         &mt LCTRL EQUAL  &kp KP_MULTIPLY  &mt LEFT_GUI KP_NUMBER_4  &mt LEFT_ALT KP_N5    &mt LCTRL KP_N6   &kp KP_PLUS        &kp LEFT_ARROW          &kp DOWN           &kp UP           &kp RIGHT                &kp ESC         &mt RCTRL K_APP
         &kp LEFT_ALT     &kp KP_N0        &kp KP_N1                 &kp KP_N2             &kp KP_N3         &kp KP_DOT         &kp LC(LS(LEFT_ARROW))  &kp END            &kp PG_DN        &kp LC(LS(RIGHT_ARROW))  &kp LS(INSERT)  &kp K_MENU
-                                          &kp LS(RIGHT_ALT)         &kp LS(LCTRL)         &kp SPACE         &lt 1 TAB          &trans                  &trans             &trans           &trans
+                                          &trans                    &kp RIGHT_SHIFT       &kp SPACE         &lt 1 TAB          &trans                  &trans             &trans           &trans
             >;
         };
 
