@@ -59,7 +59,7 @@
 
         f14 {
             bindings = <&kp F14>;
-            key-positions = <51 56>;
+            key-positions = <52 55>;
         };
     };
 
