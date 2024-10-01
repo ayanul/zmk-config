@@ -68,21 +68,21 @@
 
         default_layer {
             bindings = <
-          &to 1      &kp N1  &kp N2        &kp N3           &kp N4           &kp N5         &kp N6     &kp N7           &kp N8     &kp N9        &kp N0    &to 2
-&kp LWIN  &kp TAB    &kp Q   &kp W         &kp E            &kp R            &kp T          &kp Y      &kp U            &kp I      &kp O         &kp P     &kp LBKT       &mt RWIN RBKT
-          &kp LCTRL  &kp A   &kp S         &kp D            &kp F            &kp G          &kp H      &kp J            &kp K      &kp L         &kp SEMI  &mt RCTRL SQT
-          &kp LALT   &kp Z   &kp X         &kp C            &kp V            &kp B          &kp N      &kp M            &kp COMMA  &kp DOT       &kp FSLH  &mt RALT BSLH
-                             &mt LGUI DEL  &lt 2 BACKSPACE  &mt LSHFT ENTER  &lt 1 RIGHT    &lt 1 ESC  &mt RSHFT SPACE  &lt 2 TAB  &mt RGUI F14
+          &to 1      &kp N1  &kp N2        &kp N3           &kp N4           &kp N5         &kp N6     &kp N7           &kp N8        &kp N9        &kp N0    &to 2
+&kp LWIN  &kp TAB    &kp Q   &kp W         &kp E            &kp R            &kp T          &kp Y      &kp U            &kp I         &kp O         &kp P     &kp LBKT       &mt RWIN RBKT
+          &kp LCTRL  &kp A   &kp S         &kp D            &kp F            &kp G          &kp H      &kp J            &kp K         &kp L         &kp SEMI  &mt RCTRL SQT
+          &kp LALT   &kp Z   &kp X         &kp C            &kp V            &kp B          &kp N      &kp M            &kp COMMA     &kp DOT       &kp FSLH  &mt RALT BSLH
+                             &mt LGUI TAB  &lt 2 BACKSPACE  &mt LSHFT ENTER  &lt 1 RIGHT    &lt 1 ESC  &mt RSHFT SPACE  &lt 2 DELETE  &mt RGUI F14
             >;
         };
 
         lower_layer {
             bindings = <
-                  &kp F11       &kp F10    &kp F9                &kp F8             &kp F7            &kp F6       &kp F1             &kp F2                &kp F3                          &kp F4                           &kp F5          &kp F13
-&mt LEFT_GUI F12  &kp TILDE     &kp F1     &kp F2                &kp F3             &kp F4            &kp F5       &kp F6             &kp F7                &kp F8                          &kp F9                           &kp F10         &kp F11                  &mt RGUI F12
-                  &kp LCTRL     &kp EXCL   &mt LEFT_WIN AT_SIGN  &mt LEFT_ALT HASH  &mt LCTRL DOLLAR  &kp PRCNT    &kp LEFT_BRACKET   &mt RCTRL LEFT_BRACE  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt RIGHT_WIN RIGHT_PARENTHESIS  &kp UNDERSCORE  &mt RCTRL DOUBLE_QUOTES
-                  &kp LEFT_ALT  &kp LC(Z)  &kp AMPERSAND         &kp PIPE           &kp GRAVE         &kp CARET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp EQUAL                       &kp GREATER_THAN                 &kp AMPERSAND   &mt RIGHT_ALT PIPE
-                                           &trans                &lt 2 DELETE       &mt LSHIFT SPACE  &lt 1 TAB    &trans             &trans                &trans                          &trans
+                  &kp F11       &kp F10    &kp F9                  &kp F8             &kp F7            &kp F6       &kp F1             &kp F2                &kp F3                          &kp F4                           &kp F5          &kp F13
+&mt LEFT_GUI F12  &kp TILDE     &kp F1     &kp F2                  &kp F3             &kp F4            &kp F5       &kp F6             &kp F7                &kp F8                          &kp F9                           &kp F10         &kp F11                  &mt RGUI F12
+                  &kp LCTRL     &kp EXCL   &mt LEFT_WIN AT_SIGN    &mt LEFT_ALT HASH  &mt LCTRL DOLLAR  &kp PRCNT    &kp LEFT_BRACKET   &mt RCTRL LEFT_BRACE  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt RIGHT_WIN RIGHT_PARENTHESIS  &kp UNDERSCORE  &mt RCTRL DOUBLE_QUOTES
+                  &kp LEFT_ALT  &kp LC(Z)  &kp AMPERSAND           &kp PIPE           &kp GRAVE         &kp CARET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp EQUAL                       &kp GREATER_THAN                 &kp AMPERSAND   &mt RIGHT_ALT PIPE
+                                           &mt BACKSPACE LEFT_WIN  &lt 2 DELETE       &mt LSHIFT SPACE  &lt 1 TAB    &trans             &trans                &trans                          &trans
             >;
         };
 
