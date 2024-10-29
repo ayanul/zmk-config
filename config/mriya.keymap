@@ -23,7 +23,7 @@
         compatible = "zmk,combos";
 
         to_3_l {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <50 53 12>;
         };
 
@@ -33,7 +33,7 @@
         };
 
         to_3_r {
-            bindings = <&to 4>;
+            bindings = <&to 3>;
             key-positions = <54 57 25>;
         };
 
