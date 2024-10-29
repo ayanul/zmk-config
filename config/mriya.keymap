@@ -14,31 +14,52 @@
 #define RSE 2
 #define ADJ 3
 
-&lt {
-    quick_tap_ms = <200>;
-};
+&lt { quick_tap_ms = <200>; };
 
-&mt {
-    quick_tap_ms = <200>;
-};
+&mt { quick_tap_ms = <200>; };
 
 / {
     combos {
         compatible = "zmk,combos";
 
-        to_adjust_layer {
-            bindings = <&tog 3>;
+        to_3_l {
+            bindings = <&to 4>;
             key-positions = <50 53 12>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <26 11>;
+        to_0 {
+            bindings = <&to 0>;
+            key-positions = <54 53>;
         };
 
-        to_default_layer {
-            bindings = <&tog 0>;
-            key-positions = <53 54>;
+        to_3_r {
+            bindings = <&to 4>;
+            key-positions = <54 57 25>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <39 40>;
+        };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <40 41>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <41 42>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <39 42>;
+        };
+
+        f14 {
+            bindings = <&kp F14>;
+            key-positions = <52 55>;
         };
     };
 
