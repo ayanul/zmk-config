@@ -14,13 +14,7 @@
 #define RSE 2
 #define ADJ 3
 
-quick-tap-ms = <200>;};
-
-quick-tap-ms {
-    = <200>;};
-
-/
-
+/ {
     combos {
         compatible = "zmk,combos";
 
