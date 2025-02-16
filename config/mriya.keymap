@@ -20,11 +20,10 @@
 
 / {
     behaviors {
-        ctrl_to_ctrl_alt: mod-morph {
+        ctrl_alt_behavior: mod-morph {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp LCTRL>;
             mods = <(LCTRL|LALT)>;
-            mode = "hold_tap";  // Или "hold_tap" в зависимости от желаемого поведения
         };
     };
 
@@ -32,8 +31,9 @@
         compatible = "zmk,combos";
 
         ctrl_combo {
-            key-positions = <&ctrl_left &ctrl_right>;  // Левая и правая клавиши Ctrl
-            bindings = <&ctrl_to_ctrl_alt>;
+            timeout-ms = <0>;
+            key-positions = <&ctrl_left &ctrl_right>;
+            bindings = <&ctrl_alt_behavior>;
             allow-release;
         };
 
