@@ -18,6 +18,13 @@
 
 &mt { quick-tap-ms = <200>; };
 
+&gresc {
+    bindings = <&kp RC(LCTRL)>, <&kp RA(RCTRL)>;
+
+    mods = <(MOD_LCTL|MOD_RCTL)>;
+    keep-mods = <(MOD_LCTL|MOD_RCTL)>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
