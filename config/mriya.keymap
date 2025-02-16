@@ -23,7 +23,7 @@
         ctrl_alt_behavior: mod-morph {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp LCTRL>;
-            mods = <(LCTRL|LALT)>;
+            mods = <(LCTRL|LALT|MOD_LCTL|MOD_LALT)>;
         };
     };
 
