@@ -63,11 +63,6 @@
             timeout-ms = <50>;
         };
 
-        ctrl_alt_combo {
-            bindings = <&ctrl_alt_behavior>;
-            key-positions = <26 37>;
-        };
-
         alt_ctrl_combo {
             bindings = <&kp LC(LALT)>;
             key-positions = <38 49>;
@@ -78,9 +73,11 @@
         ctrl_alt_behavior: ctrl_alt_behavior {
             compatible = "zmk,behavior-mod-morph";
             label = "CTRL_ALT_BEHAVIOR";
-            bindings = <&kp LCTRL>;
+            bindings = <&kp RC(LCTRL)>, <&kp LALT>;
+
             #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LALT)>;
+            mods = <(MOD_LCTL|MOD_RCTL|MOD_LALT)>;
+            keep-mods = <(MOD_LCTL)>;
         };
     };
 
