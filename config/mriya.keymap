@@ -73,12 +73,6 @@
             key-positions = <52 55>;
             timeout-ms = <50>;
         };
-
-        ctrl_alt_combo {
-            bindings = <&ctrl_alt_behavior>;
-            key-positions = <37 26>;
-            timeout-ms = <1>;
-        };
     };
 
     keymap {
