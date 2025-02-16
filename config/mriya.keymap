@@ -76,8 +76,9 @@
 
         ctrl_alt_combo {
             bindings = <&ctrl_alt_behavior>;
-            key-positions = <26 37>;
+            key-positions = <37 26>;
             allow-release;
+            timeout-ms = <0>;
         };
     };
 
