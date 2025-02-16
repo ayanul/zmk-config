@@ -64,8 +64,13 @@
         };
 
         ctrl_alt_combo {
-            bindings = <&kp LA(LCTRL)>;
+            bindings = <&ctrl_alt_behavior>;
             key-positions = <26 37>;
+        };
+
+        alt_ctrl_combo {
+            bindings = <&kp LC(LALT)>;
+            key-positions = <38 49>;
         };
     };
 
