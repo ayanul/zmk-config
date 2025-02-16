@@ -20,10 +20,13 @@
 
 / {
     behaviors {
-        ctrl_alt_behavior: mod-morph {
+        ctrl_alt: ctrl_alt {
             compatible = "zmk,behavior-mod-morph";
-            bindings = <&kp LCTRL>;
-            mods = <(MOD_LCTL|MOD_LALT)>;
+            label = "CTRL_ALT";
+            bindings = <&kp LCTRL>, <&kp RA(LCTRL)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
         };
     };
 
@@ -33,7 +36,7 @@
         ctrl_combo {
             timeout-ms = <0>;
             key-positions = <26 37>;
-            bindings = <&ctrl_alt_behavior>;
+            bindings = <&ctrl_alt>;
             allow-release;
         };
 
