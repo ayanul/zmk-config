@@ -18,16 +18,24 @@
 
 &mt { quick-tap-ms = <200>; };
 
-&gresc {
-    bindings = <&kp RC(LCTRL)>, <&kp RA(RCTRL)>;
-
-    mods = <(MOD_LCTL|MOD_RCTL)>;
-    keep-mods = <(MOD_LCTL|MOD_RCTL)>;
-};
-
 / {
+    behaviors {
+        ctrl_to_ctrl_alt: mod-morph {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&kp LCTRL>;
+            mods = <(LCTRL|LALT)>;
+            mode = "hold_tap";  // Или "hold_tap" в зависимости от желаемого поведения
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
+
+        ctrl_combo {
+            key-positions = <&ctrl_left &ctrl_right>;  // Левая и правая клавиши Ctrl
+            bindings = <&ctrl_to_ctrl_alt>;
+            allow-release;
+        };
 
         to_3_l {
             bindings = <&to 4>;
