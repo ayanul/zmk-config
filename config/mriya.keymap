@@ -19,17 +19,6 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
-    behaviors {
-        ctrl_alt_behavior: ctrl_alt_behavior {
-            compatible = "zmk,behavior-mod-morph";
-            label = "CTRL_ALT_BEHAVIOR";
-            bindings = <&kp RC(LCTRL)>, <&kp LA(LCTRL)>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LALT)>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
