@@ -20,25 +20,18 @@
 
 / {
     behaviors {
-        ctrl_alt: ctrl_alt {
+        ctrl_alt_behavior: ctrl_alt_behavior {
             compatible = "zmk,behavior-mod-morph";
-            label = "CTRL_ALT";
-            bindings = <&kp LCTRL>, <&kp RA(LCTRL)>;
+            label = "CTRL_ALT_BEHAVIOR";
+            bindings = <&kp LCTRL>, <&none>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LALT|MOD_RCTL|MOD_RALT)>;
+            mods = <(MOD_LALT|MOD_LCTL)>;
         };
     };
 
     combos {
         compatible = "zmk,combos";
-
-        ctrl_combo {
-            timeout-ms = <0>;
-            key-positions = <26 37>;
-            bindings = <&ctrl_alt>;
-            allow-release;
-        };
 
         to_3_l {
             bindings = <&to 4>;
