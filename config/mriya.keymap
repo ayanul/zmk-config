@@ -62,6 +62,21 @@
             key-positions = <52 55>;
             timeout-ms = <50>;
         };
+
+        ctrl_alt_combo {
+            bindings = <&kp LA(LCTRL)>;
+            key-positions = <26 37>;
+        };
+    };
+
+    behaviors {
+        ctrl_alt_behavior: ctrl_alt_behavior {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CTRL_ALT_BEHAVIOR";
+            bindings = <&kp LCTRL>;
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL|MOD_LALT)>;
+        };
     };
 
     keymap {
