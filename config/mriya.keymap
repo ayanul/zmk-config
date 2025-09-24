@@ -93,11 +93,11 @@
 
         raise_layer {
             bindings = <
-        &trans           &kp KP_NUMLOCK   &kp C_BRIGHTNESS_DEC      &kp C_BRIGHTNESS_INC  &kp K_CALCULATOR      &kp PRINTSCREEN    &kp C_MUTE          &kp C_VOLUME_DOWN      &kp C_VOLUME_UP   &kp C_PLAY_PAUSE     &kt K_MUTE       &kp F15
-&trans  &kp TILDE        &kp KP_SLASH     &kp KP_N7                 &kp KP_N8             &kp KP_N9             &kp KP_MINUS       &kp HOME            &kp END                &kp PG_UP         &kp PAGE_DOWN        &kp INSERT       &kp CAPS         &trans
-        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &mt LEFT_GUI KP_NUMBER_4  &mt LEFT_ALT KP_N5    &mt LCTRL KP_N6       &kp KP_PLUS        &kp LEFT_ARROW      &kp DOWN               &kp UP            &kp RIGHT            &kp RIGHT_SHIFT  &mt RCTRL K_APP
-        &kp LEFT_ALT     &kp KP_DOT       &kp KP_N1                 &kp KP_N2             &kp KP_N3             &kp KP_N0          &kp RS(LEFT_ARROW)  &kp RS(DOWN_ARROW)     &kp RS(UP_ARROW)  &kp RS(RIGHT_ARROW)  &kp LS(INSERT)   &mt K_MENU RALT
-                                          &trans                    &trans                &mt SPACE LEFT_SHIFT  &lt 1 TAB          &trans              &mt ENTER RIGHT_SHIFT  &trans            &trans
+        &trans           &kp KP_NUMLOCK   &kp C_BRIGHTNESS_DEC      &kp C_BRIGHTNESS_INC  &kp K_CALCULATOR      &kp PRINTSCREEN    &kp C_MUTE          &kp C_VOLUME_DOWN      &kp C_VOLUME_UP   &kp C_PLAY_PAUSE     &kt K_MUTE      &kp F15
+&trans  &kp TILDE        &kp KP_SLASH     &kp KP_N7                 &kp KP_N8             &kp KP_N9             &kp KP_MINUS       &kp HOME            &kp END                &kp PG_UP         &kp PAGE_DOWN        &kp INSERT      &kp CAPS         &trans
+        &mt LCTRL EQUAL  &kp KP_MULTIPLY  &mt LEFT_GUI KP_NUMBER_4  &mt LEFT_ALT KP_N5    &mt LCTRL KP_N6       &kp KP_PLUS        &kp LEFT_ARROW      &kp DOWN               &kp UP            &kp RIGHT            &kp ESCAPE      &mt RCTRL K_APP
+        &kp LEFT_ALT     &kp KP_DOT       &kp KP_N1                 &kp KP_N2             &kp KP_N3             &kp KP_N0          &kp RS(LEFT_ARROW)  &kp RS(DOWN_ARROW)     &kp RS(UP_ARROW)  &kp RS(RIGHT_ARROW)  &kp LS(INSERT)  &mt K_MENU RALT
+                                          &trans                    &trans                &mt SPACE LEFT_SHIFT  &lt 1 TAB          &kp RIGHT_SHIFT     &mt ENTER RIGHT_SHIFT  &trans            &trans
             >;
         };
 
