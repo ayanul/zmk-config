@@ -101,7 +101,7 @@
             >;
         };
 
-        dev {
+        mix {
             bindings = <
           &kp GRAVE  &kp LA(N1)     &kp LA(N2)     &kp F8             &kp F11        &kp F10                &kp LA(N6)              &kp LA(N7)              &kp LA(N8)            &kp LA(N9)               &kp LA(N0)             &kp MINUS
 &kp LGUI  &kp TAB    &kp LA(Q)      &kp LA(LS(M))  &kp LC(LS(LA(E)))  &kp LA(LS(R))  &kp LA(LC(SLASH))      &kp LC(LG(H))           &kp LG(LC(J))           &kp LC(LG(K))         &kp LC(LG(L))            &kp LG(LEFT_BRACKET)   &kp LS(LA(LEFT_BRACKET))  &kp LA(LS(RBKT))
