@@ -66,6 +66,11 @@
             bindings = <&kp LC(LALT)>;
             key-positions = <26 37>;
         };
+
+        mix {
+            bindings = <&tog 3>;
+            key-positions = <51 56>;
+        };
     };
 
     keymap {
