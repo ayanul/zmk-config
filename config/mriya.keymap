@@ -79,6 +79,8 @@
             label = "DANCE_CTRL_ALT";
             #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp LA(LCTRL)>;
+
+            tapping-term-ms = <150>;
         };
     };
 
